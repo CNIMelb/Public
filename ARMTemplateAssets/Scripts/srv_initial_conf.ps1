@@ -9,7 +9,7 @@ netsh advfirewall firewall set rule name="Windows Remote Management (HTTP-In)" n
 netsh advfirewall firewall set rule group="Windows Management Instrumentation (WMI)" new enable=Yes
 
 #Enable 
-TZUTIL /s “AUS Eastern Standard Time”
+TZUTIL /s "AUS Eastern Standard Time"
 Set-Culture en-AU
 Set-WinUserLanguageList en-AU -Force
 Set-WinSystemLocale -SystemLocale en-AU
